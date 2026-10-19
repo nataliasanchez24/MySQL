@@ -18,6 +18,8 @@ Caso G: Tras 5 años de guardar registros antiguos que ya no se usan por ley fis
 
 
 
+
+
 EJERCICO 2
 
 Caso 1: El departamento de TI programa un script que detecta registros corruptos debido a interferencias en los túneles y elimina los saltos térmicos imposibles (como una lectura de 90°C dentro del congelador) antes de enviar los datos al servidor central. (Fase: Transformar)
