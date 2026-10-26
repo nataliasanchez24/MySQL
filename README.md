@@ -8,3 +8,4 @@ Ejercicios de MySQL
 ![Ver los ejercicios](Diseno4.png)
 
 [Ver los ejercicios de entidad - relación a modelo relacional](Entidad-Relacion)
+![Ver los ejercicios](Entidades_Proyecto_Final.png)
