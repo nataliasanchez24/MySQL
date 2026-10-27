@@ -1,28 +1,13 @@
-# MySQL
-Ejercicios de MySQL
-[Ver los ejercicios](Ciclo_de_vida_datos.md)
 
-![Ver los ejercicios](Diseno1.png)
-![Ver los ejercicios](Diseno2.png)
-![Ver los ejercicios](Diseno3.png)
-![Ver los ejercicios](Diseno4.png)
-
-[Ver los ejercicios de entidad - relación a modelo relacional](Entidad-Relacion)
-![Ver los ejercicios](Proyecto_Final_Entidades.png)
-![Ver los ejercicios](Ejercicio2_Access.png)
-![Ver los ejercicios](Ejercicio3_Access.png)
-
-
-
-# 🗄️ MySQL — Ejercicios y diseño de bases de datos
+# MySQL — Ejercicios y diseño de bases de datos
 
 Repositorio de ejercicios prácticos de **MySQL**, diseño de bases de datos y transformación de modelos entidad-relación a modelo relacional.
 
-## 📚 1. Ciclo de vida de los datos
+## 1. Ciclo de vida de los datos
 
-📖 [**Ver ejercicios del ciclo de vida de los datos**](Ciclo_de_vida_datos.md)
+ [**Ver ejercicios del ciclo de vida de los datos**](Ciclo_de_vida_datos.md)
 
-## 🧩 2. Diseño de bases de datos
+## 2. Diseño de bases de datos
 
 Ejercicios de diseño y modelado de bases de datos.
 
@@ -49,13 +34,13 @@ Ejercicios de diseño y modelado de bases de datos.
   </tr>
 </table>
 
-## 🔄 3. Modelo entidad-relación → modelo relacional
+##  3. Modelo entidad-relación → modelo relacional
 
 Ejercicios de transformación de diagramas entidad-relación en modelos relacionales, identificando entidades, atributos, claves y relaciones.
 
-📂 [**Ver ejercicios de entidad-relación a modelo relacional**](Entidad-Relacion)
+ [**Ver ejercicios de entidad-relación a modelo relacional**](Entidad-Relacion)
 
-## 📐 4. Proyecto final
+## 4. Proyecto final
 
 Desarrollo del proyecto final de diseño y modelado de entidades.
 
@@ -63,7 +48,7 @@ Desarrollo del proyecto final de diseño y modelado de entidades.
   <img src="Proyecto_Final_Entidades.png" alt="Proyecto final de entidades" width="80%">
 </p>
 
-## 💻 5. Ejercicios en Microsoft Access
+## 5. Ejercicios en Microsoft Access
 
 ### Ejercicio 2
 
@@ -77,7 +62,7 @@ Desarrollo del proyecto final de diseño y modelado de entidades.
   <img src="Ejercicio3_Access.png" alt="Ejercicio 3 en Access" width="80%">
 </p>
 
-## 🛠️ Herramientas
+## Herramientas
 
 - **MySQL:** consultas y gestión de bases de datos.
 - **Modelado de datos:** diagramas entidad-relación y modelo relacional.
