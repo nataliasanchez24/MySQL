@@ -9,4 +9,4 @@ Ejercicios de MySQL
 
 [Ver los ejercicios de entidad - relación a modelo relacional](Entidad-Relacion)
 ![Ver los ejercicios](Proyecto_Final_Entidades.png)
-![Ver los ejercicios](Ejercicio4_Access.png)
+![Ver los ejercicios](Ejercicio3_Access.png)
