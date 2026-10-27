@@ -38,7 +38,7 @@ Ejercicios de diseño y modelado de bases de datos.
 
 Ejercicios de transformación de diagramas entidad-relación en modelos relacionales, identificando entidades, atributos, claves y relaciones.
 
- [**Ver ejercicios de entidad-relación a modelo relacional**](Entidad-Relacion)
+ [**Ver ejercicios de entidad-relación a modelo relacional**](Entidad-Relacion.md)
 
 ## 4. Proyecto final
 
