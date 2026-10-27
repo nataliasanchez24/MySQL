@@ -68,13 +68,5 @@ Desarrollo del proyecto final de diseño y modelado de entidades.
   <img src="Ejercicio4_Access.png" alt="Ejercicio 4 en Access" width="80%">
 </p>
 
-## Herramientas
 
-- **MySQL:** consultas y gestión de bases de datos.
-- **Modelado de datos:** diagramas entidad-relación y modelo relacional.
-- **Microsoft Access:** diseño y ejercicios prácticos de bases de datos.
-
-<p align="center">
-  <i>Repositorio de aprendizaje y práctica de bases de datos.</i>
-</p>
 
