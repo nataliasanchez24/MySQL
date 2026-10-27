@@ -62,6 +62,12 @@ Desarrollo del proyecto final de diseño y modelado de entidades.
   <img src="Ejercicio3_Access.png" alt="Ejercicio 3 en Access" width="80%">
 </p>
 
+### Ejercicio 4
+
+<p align="center">
+  <img src="Ejercicio4_Access.png" alt="Ejercicio 4 en Access" width="80%">
+</p>
+
 ## Herramientas
 
 - **MySQL:** consultas y gestión de bases de datos.
