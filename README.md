@@ -45,7 +45,7 @@ Ejercicios de transformación de diagramas entidad-relación en modelos relacion
 Desarrollo del proyecto final de diseño y modelado de entidades.
 
 <p align="center">
-  <img src="Proyecto_Final_Entidades.png" alt="Proyecto final de entidades" width="80%">
+  <img src="proyecto_final.png" alt="Proyecto final de entidades" width="80%">
 </p>
 
 ## 5. Ejercicios en Microsoft Access
