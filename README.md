@@ -79,9 +79,8 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 2. **¿Qué impacto cuantitativo tuvo la vigencia del "impuesto al sol" (2015-2018) en el freno de las instalaciones fotovoltaicas residenciales frente al boom posterior a su derogación?** (Evaluación de políticas fiscales sobre la adopción tecnológica).
 3. **¿De qué manera incide el nivel de renta (quintiles de gasto) en la capacidad de los hogares para acometer inversiones en eficiencia energética o autoconsumo?** (Diferenciación entre estrategias de reducción de consumo en rentas bajas frente a inversión en eficiencia en rentas altas).
 4. **¿Cómo se relaciona el incremento histórico del precio del kWh (corregido por inflación) con la modificación de los hábitos de consumo y el desplazamiento de la demanda a horas valle?**
-5. **¿Cuál fue el desfase porcentual y presupuestario en la distribución de ayudas ambientales y de eficiencia energética en España frente a la media de la Unión Europea durante el periodo 2012-2017?**
-6. **¿Cómo ha incidido el envejecimiento del parque inmobiliario (considerando que la gran mayoría de las viviendas son anteriores a la normativa del Código Técnico de la Edificación de 2006) en la demanda energética estacional para calefacción y refrigeración?**
-7. **¿De qué manera la sustitución progresiva de calderas de combustibles fósiles por sistemas de aerotermia y bombas de calor ha alterado la cuota de consumo eléctrico destinado a calefacción y agua caliente sanitaria?**
+5. **¿Cómo ha incidido el envejecimiento del parque inmobiliario (considerando que la gran mayoría de las viviendas son anteriores a la normativa del Código Técnico de la Edificación de 2006) en la demanda energética estacional para calefacción y refrigeración?**
+6. **¿De qué manera la sustitución progresiva de calderas de combustibles fósiles por sistemas de aerotermia y bombas de calor ha alterado la cuota de consumo eléctrico destinado a calefacción y agua caliente sanitaria?**
 
 ## 5. Ejercicios en Microsoft Access
 
