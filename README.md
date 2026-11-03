@@ -89,7 +89,7 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 - **Tablas relacionadas:** `CONSUME ELÉCTRICO EN LOS HOGARES`, `AÑO` y `CARACTERÍSTICAS DEL HOGAR`.
 - **Variables:** año, consumo total, consumo per cápita, tipo de hogar, número de miembros y tamaño del hogar.
 
-**Qué podrías obtener:** comparar hogares unipersonales, parejas y hogares de cuatro o más miembros, identificando qué tipologías presentan mayor consumo por persona y cómo ha cambiado a lo largo del tiempo.
+**Qué se podría obtener:** comparar hogares unipersonales, parejas y hogares de cuatro o más miembros, identificando qué tipologías presentan mayor consumo por persona y cómo ha cambiado a lo largo del tiempo.
 
 **Pregunta 2. Relación entre renta familiar y consumo eléctrico**
 
@@ -98,7 +98,7 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 - **Tablas relacionadas:** `INDICADORES ECONÓMICOS`, `CONSUME ELÉCTRICO EN LOS HOGARES`, `AÑO` y `CARACTERÍSTICAS DEL HOGAR`.
 - **Variables:** año, quintil de renta, renta disponible media, PIB per cápita, consumo total y consumo per cápita.
 
-**Qué podrías obtener:** comparar los distintos quintiles de renta y analizar si los hogares con mayores ingresos presentan un consumo eléctrico superior o si las diferencias se han reducido con el tiempo.
+**Qué se podría obtener:** comparar los distintos quintiles de renta y analizar si los hogares con mayores ingresos presentan un consumo eléctrico superior o si las diferencias se han reducido con el tiempo.
 
 **Pregunta 3. Evolución del precio de la electricidad y del gasto familiar**
 
@@ -107,7 +107,7 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 - **Tablas relacionadas:** `PRECIO Y GASTO ENERGÉTICO`, `INDICADORES ECONÓMICOS` y `AÑO`.
 - **Variables:** año, precio del kWh, tipo de tarifa, impuestos, gasto medio por hogar, porcentaje de renta destinado a energía, IPC e inflación.
 
-**Qué podrías obtener:** identificar los periodos de mayor encarecimiento de la electricidad y comprobar si el gasto energético de los hogares ha aumentado en la misma proporción que los precios.
+**Qué se podría obtener:** identificar los periodos de mayor encarecimiento de la electricidad y comprobar si el gasto energético de los hogares ha aumentado en la misma proporción que los precios.
 
 **Pregunta 4. Autoconsumo fotovoltaico y evolución del consumo residencial**
 
@@ -116,7 +116,7 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 - **Tablas relacionadas:** `AUTOCONSUMO FOTOVOLTAICO`, `CONSUME ELÉCTRICO EN LOS HOGARES` y `AÑO`.
 - **Variables:** año, número de instalaciones, potencia instalada, energía autoconsumida, energía excedente y consumo total de los hogares.
 
-**Qué podrías obtener:** identificar los años de mayor crecimiento del autoconsumo, analizar su evolución y comparar el aumento de la generación doméstica con la evolución del consumo eléctrico residencial.
+**Qué se podría obtener:** identificar los años de mayor crecimiento del autoconsumo, analizar su evolución y comparar el aumento de la generación doméstica con la evolución del consumo eléctrico residencial.
 
 **Pregunta 5. Tecnología doméstica y eficiencia energética**
 
@@ -125,7 +125,7 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 - **Tablas relacionadas:** `TECNOLOGÍA DEL HOGAR`, `CARACTERÍSTICAS DEL HOGAR`, `CONSUME ELÉCTRICO EN LOS HOGARES` y `AÑO`.
 - **Variables:** año, electrodomésticos, eficiencia energética, sistemas de calefacción, aerotermia, climatización y consumo eléctrico.
 
-**Qué podrías obtener:** comparar la evolución de la adopción de tecnologías eficientes y analizar si los años con mayor implantación coinciden con cambios en el consumo eléctrico.
+**Qué se podría obtener:** comparar la evolución de la adopción de tecnologías eficientes y analizar si los años con mayor implantación coinciden con cambios en el consumo eléctrico.
 
 **Pregunta 6. Políticas energéticas y evolución del autoconsumo**
 
@@ -134,7 +134,7 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 - **Tablas relacionadas:** `POLÍTICAS ENERGÉTICAS`, `AUTOCONSUMO FOTOVOLTAICO` y `AÑO`.
 - **Variables:** año, nombre de la política, tipo de regulación, fecha de inicio, fecha de finalización, número de instalaciones y potencia instalada.
 
-**Qué podrías obtener:** comparar los periodos anteriores y posteriores a determinadas reformas regulatorias, como la derogación del denominado "impuesto al sol", y observar cómo evolucionó el autoconsumo.
+**Qué se podría obtener:** comparar los periodos anteriores y posteriores a determinadas reformas regulatorias, como la derogación del denominado "impuesto al sol", y observar cómo evolucionó el autoconsumo.
 
 **Pregunta 7. Consumo residencial y evolución del mercado eléctrico**
 
@@ -143,7 +143,7 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 - **Tablas relacionadas:** `CONSUME ELÉCTRICO EN LOS HOGARES`, `INDICADORES DEL MERCADO ELÉCTRICO` y `AÑO`.
 - **Variables:** año, consumo residencial, demanda bruta, generación bruta, precio del mercado y tipo de generación.
 
-**Qué podrías obtener:** comparar la evolución de la demanda residencial con la generación eléctrica y los precios del mercado, identificando los periodos en los que se producen mayores diferencias.
+**Qué se podría obtener:** comparar la evolución de la demanda residencial con la generación eléctrica y los precios del mercado, identificando los periodos en los que se producen mayores diferencias.
 
 ## 5. Ejercicios en Microsoft Access
 
