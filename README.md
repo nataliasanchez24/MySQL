@@ -48,10 +48,12 @@ Desarrollo del proyecto final de diseño y modelado de entidades.
 </p>
 
 ### Introducción y Justificación del Proyecto
+
 * **Contexto:** El proyecto consiste en el diseño, modelado e implementación de una base de datos relacional orientada a centralizar, estructurar y analizar la evolución del consumo eléctrico en los hogares españoles durante el periodo de transición energética comprendido entre 2006 y 2026.
 * **Justificación:** El análisis del metabolismo energético residencial requiere cruzar múltiples variables heterogéneas (sociales, económicas, tecnológicas y políticas) que habitualmente se encuentran dispersas en diferentes organismos oficiales (INE, Eurostat, IDAE, REE). Esta base de datos unifica toda esa información en un único modelo normalizado y coherente para permitir consultas analíticas complejas.
 
 ### Objetivos del Proyecto
+
 * **Objetivo General:** Desarrollar una infraestructura de datos robusta que almacene y relacione de forma eficiente el consumo eléctrico de los hogares en España con los factores socioeconómicos, tecnológicos y normativos que lo condicionan.
 * **Objetivos Específicos:**
   * Almacenar las series temporales de producción y consumo eléctrico bruto y residencial entre 2006 y 2026.
@@ -61,12 +63,15 @@ Desarrollo del proyecto final de diseño y modelado de entidades.
   * Registrar el marco regulatorio e institucional (normativa de eficiencia en edificios, ayudas del IDAE y el impacto histórico de políticas fiscales como el "impuesto al sol").
 
 ### Alcance y Delimitación (Scope)
+
 * **Ámbito Geográfico:** España (con enfoque principal en el sistema eléctrico peninsular y nacional según disponibilidad de registros).
 * **Ámbito Temporal:** Serie histórica de 2006 a 2026 (con extensiones puntuales hasta 2023 para métricas recientes de autoconsumo fotovoltaico).
 * **Población de Estudio:** Exclusivamente el sector residencial (hogares), excluyendo de manera deliberada los sectores industriales y de transporte, tal como delimita el estudio original.
 
 ### Fuentes de Datos de Origen
+
 Para poblar y alimentar el sistema de bases de datos, se utilizarán los conjuntos de datos públicos extraídos de las referencias del TFG:
+
 * **INE (Instituto Nacional de Estadística):** Encuesta de Presupuestos Familiares (EPF), gasto medio por hogar y distribución del tamaño/tipo de hogares.
 * **Eurostat:** Balances energéticos y consumo final por usos del sector residencial.
 * **IDAE (Instituto para la Diversificación y Ahorro de la Energía):** Informes de consumos en usos residenciales y datos de eficiencia.
@@ -74,13 +79,22 @@ Para poblar y alimentar el sistema de bases de datos, se utilizarán los conjunt
 * **APPA / Statista:** Estadísticas de potencia instalada y número de instalaciones de autoconsumo fotovoltaico.
 
 ### Casos de Uso y Consultas Analíticas (SQL / Business Intelligence)
-El planteamiento del proyecto se validará demostrando que la base de datos puede responder a preguntas complejas de investigación como:
-1. **¿Cómo ha evolucionado el consumo per cápita en los hogares unipersonales en comparación con los hogares de 4 o más miembros entre 2006 y 2022?** (Analizando economías de escala y la pérdida de eficiencia en hogares pequeños).
-2. **¿Qué impacto cuantitativo tuvo la vigencia del "impuesto al sol" (2015-2018) en el freno de las instalaciones fotovoltaicas residenciales frente al boom posterior a su derogación?** (Evaluación de políticas fiscales sobre la adopción tecnológica).
-3. **¿De qué manera incide el nivel de renta (quintiles de gasto) en la capacidad de los hogares para acometer inversiones en eficiencia energética o autoconsumo?** (Diferenciación entre estrategias de reducción de consumo en rentas bajas frente a inversión en eficiencia en rentas altas).
-4. **¿Cómo se relaciona el incremento histórico del precio del kWh (corregido por inflación) con la modificación de los hábitos de consumo y el desplazamiento de la demanda a horas valle?**
-5. **¿Cómo ha incidido el envejecimiento del parque inmobiliario (considerando que la gran mayoría de las viviendas son anteriores a la normativa del Código Técnico de la Edificación de 2006) en la demanda energética estacional para calefacción y refrigeración?**
-6. **¿De qué manera la sustitución progresiva de calderas de combustibles fósiles por sistemas de aerotermia y bombas de calor ha alterado la cuota de consumo eléctrico destinado a calefacción y agua caliente sanitaria?**
+
+El planteamiento del proyecto se validará demostrando que la base de datos puede responder a las siguientes preguntas de investigación mediante consultas SQL que relacionen las diferentes tablas:
+
+1. **¿Cómo ha evolucionado el consumo eléctrico medio por hogar y por persona en España entre 2006 y 2026, y qué diferencias existen según el número de miembros y la tipología familiar?** (Análisis de las diferencias de consumo entre hogares unipersonales, parejas y hogares de cuatro o más miembros, así como de las economías de escala).
+
+2. **¿Qué relación existe entre el nivel de renta de los hogares y su consumo eléctrico medio, y cómo ha evolucionado esta relación entre 2006 y 2026?** (Comparación del consumo eléctrico entre quintiles de renta para identificar diferencias en los patrones de consumo según la capacidad económica de los hogares).
+
+3. **¿Cómo ha evolucionado el precio medio del kWh y qué relación tiene con el gasto energético de los hogares y el porcentaje de renta destinado a electricidad?** (Análisis de la evolución de los precios, los impuestos, la inflación y el esfuerzo económico que representa el consumo eléctrico para las familias).
+
+4. **¿Cómo ha evolucionado la implantación del autoconsumo fotovoltaico en España y qué relación existe entre la potencia instalada, la energía autoconsumida y el consumo eléctrico de los hogares?** (Estudio del crecimiento de las instalaciones fotovoltaicas y de su relación con la evolución del consumo residencial).
+
+5. **¿Cómo ha evolucionado la incorporación de tecnologías de eficiencia energética en los hogares españoles y qué relación existe entre su implantación y el consumo eléctrico residencial?** (Análisis de la penetración de electrodomésticos eficientes, aerotermia, sistemas de calefacción y climatización, y su relación con los patrones de consumo).
+
+6. **¿Cómo ha evolucionado el marco regulatorio energético en España y qué relación temporal existe entre los cambios normativos y el crecimiento de las instalaciones de autoconsumo fotovoltaico?** (Comparación de los periodos anteriores y posteriores a reformas regulatorias, como la derogación del denominado "impuesto al sol", para estudiar la evolución de la adopción del autoconsumo).
+
+7. **¿Qué relación existe entre la evolución de la demanda eléctrica residencial, la generación eléctrica y el precio del mercado eléctrico en España entre 2006 y 2026?** (Comparación de la demanda residencial, la generación eléctrica y los precios del mercado para identificar tendencias y cambios en el sistema eléctrico).
 
 ## 5. Ejercicios en Microsoft Access
 
