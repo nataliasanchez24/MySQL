@@ -82,19 +82,68 @@ Para poblar y alimentar el sistema de bases de datos, se utilizarán los conjunt
 
 El planteamiento del proyecto se validará demostrando que la base de datos puede responder a las siguientes preguntas de investigación mediante consultas SQL que relacionen las diferentes tablas:
 
-1. **¿Cómo ha evolucionado el consumo eléctrico medio por hogar y por persona en España entre 2006 y 2026, y qué diferencias existen según el número de miembros y la tipología familiar?** (Análisis de las diferencias de consumo entre hogares unipersonales, parejas y hogares de cuatro o más miembros, así como de las economías de escala).
+**Pregunta 1. Evolución del consumo eléctrico según el tipo de hogar**
 
-2. **¿Qué relación existe entre el nivel de renta de los hogares y su consumo eléctrico medio, y cómo ha evolucionado esta relación entre 2006 y 2026?** (Comparación del consumo eléctrico entre quintiles de renta para identificar diferencias en los patrones de consumo según la capacidad económica de los hogares).
+¿Cómo ha evolucionado el consumo eléctrico medio por hogar y por persona en España entre 2006 y 2026, y qué diferencias existen según el número de miembros y la tipología familiar?
 
-3. **¿Cómo ha evolucionado el precio medio del kWh y qué relación tiene con el gasto energético de los hogares y el porcentaje de renta destinado a electricidad?** (Análisis de la evolución de los precios, los impuestos, la inflación y el esfuerzo económico que representa el consumo eléctrico para las familias).
+- **Tablas relacionadas:** `CONSUME ELÉCTRICO EN LOS HOGARES`, `AÑO` y `CARACTERÍSTICAS DEL HOGAR`.
+- **Variables:** año, consumo total, consumo per cápita, tipo de hogar, número de miembros y tamaño del hogar.
 
-4. **¿Cómo ha evolucionado la implantación del autoconsumo fotovoltaico en España y qué relación existe entre la potencia instalada, la energía autoconsumida y el consumo eléctrico de los hogares?** (Estudio del crecimiento de las instalaciones fotovoltaicas y de su relación con la evolución del consumo residencial).
+**Qué podrías obtener:** comparar hogares unipersonales, parejas y hogares de cuatro o más miembros, identificando qué tipologías presentan mayor consumo por persona y cómo ha cambiado a lo largo del tiempo.
 
-5. **¿Cómo ha evolucionado la incorporación de tecnologías de eficiencia energética en los hogares españoles y qué relación existe entre su implantación y el consumo eléctrico residencial?** (Análisis de la penetración de electrodomésticos eficientes, aerotermia, sistemas de calefacción y climatización, y su relación con los patrones de consumo).
+**Pregunta 2. Relación entre renta familiar y consumo eléctrico**
 
-6. **¿Cómo ha evolucionado el marco regulatorio energético en España y qué relación temporal existe entre los cambios normativos y el crecimiento de las instalaciones de autoconsumo fotovoltaico?** (Comparación de los periodos anteriores y posteriores a reformas regulatorias, como la derogación del denominado "impuesto al sol", para estudiar la evolución de la adopción del autoconsumo).
+¿Qué relación existe entre el nivel de renta de los hogares y su consumo eléctrico medio, y cómo ha evolucionado esta relación entre 2006 y 2026?
 
-7. **¿Qué relación existe entre la evolución de la demanda eléctrica residencial, la generación eléctrica y el precio del mercado eléctrico en España entre 2006 y 2026?** (Comparación de la demanda residencial, la generación eléctrica y los precios del mercado para identificar tendencias y cambios en el sistema eléctrico).
+- **Tablas relacionadas:** `INDICADORES ECONÓMICOS`, `CONSUME ELÉCTRICO EN LOS HOGARES`, `AÑO` y `CARACTERÍSTICAS DEL HOGAR`.
+- **Variables:** año, quintil de renta, renta disponible media, PIB per cápita, consumo total y consumo per cápita.
+
+**Qué podrías obtener:** comparar los distintos quintiles de renta y analizar si los hogares con mayores ingresos presentan un consumo eléctrico superior o si las diferencias se han reducido con el tiempo.
+
+**Pregunta 3. Evolución del precio de la electricidad y del gasto familiar**
+
+¿Cómo ha evolucionado el precio medio del kWh y qué relación tiene con el gasto energético de los hogares y el porcentaje de renta destinado a electricidad?
+
+- **Tablas relacionadas:** `PRECIO Y GASTO ENERGÉTICO`, `INDICADORES ECONÓMICOS` y `AÑO`.
+- **Variables:** año, precio del kWh, tipo de tarifa, impuestos, gasto medio por hogar, porcentaje de renta destinado a energía, IPC e inflación.
+
+**Qué podrías obtener:** identificar los periodos de mayor encarecimiento de la electricidad y comprobar si el gasto energético de los hogares ha aumentado en la misma proporción que los precios.
+
+**Pregunta 4. Autoconsumo fotovoltaico y evolución del consumo residencial**
+
+¿Cómo ha evolucionado la implantación del autoconsumo fotovoltaico en España y qué relación existe entre la potencia instalada, la energía autoconsumida y el consumo eléctrico de los hogares?
+
+- **Tablas relacionadas:** `AUTOCONSUMO FOTOVOLTAICO`, `CONSUME ELÉCTRICO EN LOS HOGARES` y `AÑO`.
+- **Variables:** año, número de instalaciones, potencia instalada, energía autoconsumida, energía excedente y consumo total de los hogares.
+
+**Qué podrías obtener:** identificar los años de mayor crecimiento del autoconsumo, analizar su evolución y comparar el aumento de la generación doméstica con la evolución del consumo eléctrico residencial.
+
+**Pregunta 5. Tecnología doméstica y eficiencia energética**
+
+¿Cómo ha evolucionado la incorporación de tecnologías de eficiencia energética en los hogares españoles y qué relación existe entre su implantación y el consumo eléctrico residencial?
+
+- **Tablas relacionadas:** `TECNOLOGÍA DEL HOGAR`, `CARACTERÍSTICAS DEL HOGAR`, `CONSUME ELÉCTRICO EN LOS HOGARES` y `AÑO`.
+- **Variables:** año, electrodomésticos, eficiencia energética, sistemas de calefacción, aerotermia, climatización y consumo eléctrico.
+
+**Qué podrías obtener:** comparar la evolución de la adopción de tecnologías eficientes y analizar si los años con mayor implantación coinciden con cambios en el consumo eléctrico.
+
+**Pregunta 6. Políticas energéticas y evolución del autoconsumo**
+
+¿Cómo ha evolucionado el marco regulatorio energético en España y qué relación temporal existe entre los cambios normativos y el crecimiento de las instalaciones de autoconsumo fotovoltaico?
+
+- **Tablas relacionadas:** `POLÍTICAS ENERGÉTICAS`, `AUTOCONSUMO FOTOVOLTAICO` y `AÑO`.
+- **Variables:** año, nombre de la política, tipo de regulación, fecha de inicio, fecha de finalización, número de instalaciones y potencia instalada.
+
+**Qué podrías obtener:** comparar los periodos anteriores y posteriores a determinadas reformas regulatorias, como la derogación del denominado "impuesto al sol", y observar cómo evolucionó el autoconsumo.
+
+**Pregunta 7. Consumo residencial y evolución del mercado eléctrico**
+
+¿Qué relación existe entre la evolución de la demanda eléctrica residencial, la generación eléctrica y el precio del mercado eléctrico en España entre 2006 y 2026?
+
+- **Tablas relacionadas:** `CONSUME ELÉCTRICO EN LOS HOGARES`, `INDICADORES DEL MERCADO ELÉCTRICO` y `AÑO`.
+- **Variables:** año, consumo residencial, demanda bruta, generación bruta, precio del mercado y tipo de generación.
+
+**Qué podrías obtener:** comparar la evolución de la demanda residencial con la generación eléctrica y los precios del mercado, identificando los periodos en los que se producen mayores diferencias.
 
 ## 5. Ejercicios en Microsoft Access
 
