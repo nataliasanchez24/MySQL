@@ -83,6 +83,7 @@ Para poblar y alimentar el sistema de bases de datos, se utilizarán los conjunt
 El planteamiento del proyecto se validará demostrando que la base de datos puede responder a las siguientes preguntas de investigación mediante consultas SQL que relacionen las diferentes tablas:
 
 **Pregunta 1. Evolución del consumo eléctrico según el tipo de hogar**
+
 ¿Cómo ha evolucionado el consumo eléctrico medio por hogar y por persona en España entre 2006 y 2026, y qué diferencias existen según el número de miembros y la tipología familiar?
 
 - **Tablas relacionadas:** `CONSUME ELÉCTRICO EN LOS HOGARES`, `AÑO` y `CARACTERÍSTICAS DEL HOGAR`.
@@ -90,8 +91,8 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 
 **Qué podrías obtener:** comparar hogares unipersonales, parejas y hogares de cuatro o más miembros, identificando qué tipologías presentan mayor consumo por persona y cómo ha cambiado a lo largo del tiempo.
 
-
 **Pregunta 2. Relación entre renta familiar y consumo eléctrico**
+
 ¿Qué relación existe entre el nivel de renta de los hogares y su consumo eléctrico medio, y cómo ha evolucionado esta relación entre 2006 y 2026?
 
 - **Tablas relacionadas:** `INDICADORES ECONÓMICOS`, `CONSUME ELÉCTRICO EN LOS HOGARES`, `AÑO` y `CARACTERÍSTICAS DEL HOGAR`.
@@ -99,8 +100,8 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 
 **Qué podrías obtener:** comparar los distintos quintiles de renta y analizar si los hogares con mayores ingresos presentan un consumo eléctrico superior o si las diferencias se han reducido con el tiempo.
 
-
 **Pregunta 3. Evolución del precio de la electricidad y del gasto familiar**
+
 ¿Cómo ha evolucionado el precio medio del kWh y qué relación tiene con el gasto energético de los hogares y el porcentaje de renta destinado a electricidad?
 
 - **Tablas relacionadas:** `PRECIO Y GASTO ENERGÉTICO`, `INDICADORES ECONÓMICOS` y `AÑO`.
@@ -108,8 +109,8 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 
 **Qué podrías obtener:** identificar los periodos de mayor encarecimiento de la electricidad y comprobar si el gasto energético de los hogares ha aumentado en la misma proporción que los precios.
 
-
 **Pregunta 4. Autoconsumo fotovoltaico y evolución del consumo residencial**
+
 ¿Cómo ha evolucionado la implantación del autoconsumo fotovoltaico en España y qué relación existe entre la potencia instalada, la energía autoconsumida y el consumo eléctrico de los hogares?
 
 - **Tablas relacionadas:** `AUTOCONSUMO FOTOVOLTAICO`, `CONSUME ELÉCTRICO EN LOS HOGARES` y `AÑO`.
@@ -117,8 +118,8 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 
 **Qué podrías obtener:** identificar los años de mayor crecimiento del autoconsumo, analizar su evolución y comparar el aumento de la generación doméstica con la evolución del consumo eléctrico residencial.
 
-
 **Pregunta 5. Tecnología doméstica y eficiencia energética**
+
 ¿Cómo ha evolucionado la incorporación de tecnologías de eficiencia energética en los hogares españoles y qué relación existe entre su implantación y el consumo eléctrico residencial?
 
 - **Tablas relacionadas:** `TECNOLOGÍA DEL HOGAR`, `CARACTERÍSTICAS DEL HOGAR`, `CONSUME ELÉCTRICO EN LOS HOGARES` y `AÑO`.
@@ -126,8 +127,8 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 
 **Qué podrías obtener:** comparar la evolución de la adopción de tecnologías eficientes y analizar si los años con mayor implantación coinciden con cambios en el consumo eléctrico.
 
-
 **Pregunta 6. Políticas energéticas y evolución del autoconsumo**
+
 ¿Cómo ha evolucionado el marco regulatorio energético en España y qué relación temporal existe entre los cambios normativos y el crecimiento de las instalaciones de autoconsumo fotovoltaico?
 
 - **Tablas relacionadas:** `POLÍTICAS ENERGÉTICAS`, `AUTOCONSUMO FOTOVOLTAICO` y `AÑO`.
@@ -135,8 +136,8 @@ El planteamiento del proyecto se validará demostrando que la base de datos pued
 
 **Qué podrías obtener:** comparar los periodos anteriores y posteriores a determinadas reformas regulatorias, como la derogación del denominado "impuesto al sol", y observar cómo evolucionó el autoconsumo.
 
-
 **Pregunta 7. Consumo residencial y evolución del mercado eléctrico**
+
 ¿Qué relación existe entre la evolución de la demanda eléctrica residencial, la generación eléctrica y el precio del mercado eléctrico en España entre 2006 y 2026?
 
 - **Tablas relacionadas:** `CONSUME ELÉCTRICO EN LOS HOGARES`, `INDICADORES DEL MERCADO ELÉCTRICO` y `AÑO`.
